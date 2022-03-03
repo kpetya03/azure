@@ -5,12 +5,18 @@ body {
   background-position-x: center;
   background-position-y: center;
   color: white;
+  background-image: url(hatter.jpg);
+  font-family: geneva, sans-serif;
 }
 
 #tartalom {
   background-color: rgba(4, 42, 63, 0.8);
   margin-bottom: 20px;
   padding: 40px;
+  width: 900px;
+  margin-top: 20px;
+  display: block;
+  margin: auto;
 }
 
 .keret {
@@ -43,4 +49,44 @@ th,
 td {
   border: 1px solid rgb(58, 189, 201);
   padding: 5px;
+}
+
+.kozep
+{
+  text-align: center;
+}
+
+.bold
+{
+  font-weight: bold;
+  color: cyan;
+}
+
+img
+{
+  padding-bottom: 10px;
+  max-width: 800px;
+  border-bottom: 3px solid rgb(58, 189, 201);
+}
+
+h1, h2
+{
+  font-style: italic;
+}
+
+a, a:active
+{
+  color: rgb(58, 189, 201);
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: yellow;
+}
+
+p
+{
+  text-align: justify;
+  text-indent: 20px;
 }
